@@ -1,0 +1,13 @@
+--- jwhois-3.2.2/doc/jwhois.texi.orig	2003-06-30 19:12:39.000000000 +0200
++++ jwhois-3.2.2/doc/jwhois.texi	2003-07-26 12:47:35.000000000 +0200
+@@ -4,8 +4,9 @@
+ @settitle jwhois, Whois client
+ @c %**end of header
+ 
++@dircategory Net utilities:
+ @direntry
+-* jwhois: (jwhois).     Whois client.
++* jwhois: (jwhois).			Whois client
+ @end direntry
+ 
+ @c This file has the new style title page commands.
