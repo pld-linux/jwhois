@@ -1,12 +1,12 @@
 Summary:	The GNU Whois client
 Summary(pl):	Klient Whois z GNU
 Name:		jwhois
-Version:	3.2.2
+Version:	3.2.3
 Release:	1
 License:	GPL
 Group:		Networking/Utilities
 Source0:	ftp://ftp.gnu.org/gnu/jwhois/%{name}-%{version}.tar.gz
-# Source0-md5:	3ad57a8cfc4f32fe41b1131711d34a78
+# Source0-md5:	1232661cebd79a9772f416599d3f5929
 Patch0:		%{name}-info.patch
 Patch1:		%{name}-nolibs.patch
 URL:		http://www.gnu.org/software/jwhois/
