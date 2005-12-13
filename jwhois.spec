@@ -91,7 +91,7 @@ fi
 %files -f %{name}.lang
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README TODO
-%config(noreplace) %verify(not size mtime md5) %{_sysconfdir}/jwhois.conf
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/jwhois.conf
 %attr(2755,root,%{cachegrp}) %{_bindir}/jwhois
 %{_mandir}/man1/jwhois.1*
 %lang(sv) %{_mandir}/sv/man1/jwhois.1*
