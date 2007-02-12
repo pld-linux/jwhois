@@ -1,5 +1,5 @@
 Summary:	The GNU Whois client
-Summary(pl):	Klient Whois z GNU
+Summary(pl.UTF-8):   Klient Whois z GNU
 Name:		jwhois
 Version:	3.2.3
 Release:	1
@@ -31,15 +31,15 @@ information in the configuration file.
 The configuration file is highly customizable and makes heavy use of
 regular expressions.
 
-%description -l pl
-JWHOIS to klient internetowej us≥ugi Whois, odpytuj±cy hosty o
+%description -l pl.UTF-8
+JWHOIS to klient internetowej us≈Çugi Whois, odpytujƒÖcy hosty o
 informacje zgodnie z RFC 954 - NICNAME/WHOIS. JWOIS jest konfigurowany
-poprzez plik zawieraj±cy informacje o wszystkich znanych serwerach
+poprzez plik zawierajƒÖcy informacje o wszystkich znanych serwerach
 Whois. Podczas wykonywania programu host do odpytania jest wybierany
 na podstawie informacji z pliku konfiguracyjnego.
 
-Plik konfiguracyjny daje duøe moøliwo∂ci konfiguracji i intensywnie
-wykorzystuje wyraøenia regularne.
+Plik konfiguracyjny daje du≈ºe mo≈ºliwo≈õci konfiguracji i intensywnie
+wykorzystuje wyra≈ºenia regularne.
 
 %prep
 %setup -q
