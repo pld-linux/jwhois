@@ -1,5 +1,5 @@
 Summary:	The GNU Whois client
-Summary(pl.UTF-8):   Klient Whois z GNU
+Summary(pl.UTF-8):	Klient Whois z GNU
 Name:		jwhois
 Version:	3.2.3
 Release:	1
