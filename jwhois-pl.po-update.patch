@@ -1,0 +1,54 @@
+--- jwhois-4.0/po/pl.po.orig	2007-02-14 09:38:12.000000000 +0100
++++ jwhois-4.0/po/pl.po	2007-07-13 23:04:20.810922981 +0200
+@@ -4,7 +4,7 @@
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: jwhois 3.2.1\n"
++"Project-Id-Version: jwhois 4.0\n"
+ "Report-Msgid-Bugs-To: bug-jwhois@gnu.org\n"
+ "POT-Creation-Date: 2007-02-14 14:08+0530\n"
+ "PO-Revision-Date: 2003-05-31 21:18+0200\n"
+@@ -287,25 +287,25 @@
+ #: src/lookup.c:214
+ #, c-format
+ msgid "[%s: Missing prefix length on line %d]\n"
+-msgstr ""
++msgstr "[%s: Brak d³ugo¶ci prefiksu w linii %d]\n"
+ 
+ #: src/lookup.c:220
+ #, c-format
+ msgid "[%s: Invalid prefix length on line %d]\n"
+-msgstr ""
++msgstr "[%s: B³êdna d³ugo¶æ prefiksu w linii %d]\n"
+ 
+ #: src/lookup.c:232
+-#, fuzzy, c-format
++#, c-format
+ msgid "[%s: Invalid network address on line %d]\n"
+-msgstr "Nieprawid³owa maska sieciowa w linii"
++msgstr "[%s: B³êdny adres sieci w linii %d]\n"
+ 
+ #: src/lookup.c:437
+ msgid "Warning: Configuration file contains references to IPv6,"
+-msgstr ""
++msgstr "Uwaga: Plik konfiguracyjny zawiera odniesienia do IPv6,"
+ 
+ #: src/lookup.c:438
+ msgid "         but jwhois was compiled without IPv6 support."
+-msgstr ""
++msgstr "         ale jwhois zosta³ skompilowany bez obs³ugi IPv6."
+ 
+ #: src/lookup.c:552 src/lookup.c:556
+ msgid "Redirected to"
+@@ -355,9 +355,8 @@
+ msgstr "B³±d podczas tworzenia gniazda"
+ 
+ #: src/utils.c:348
+-#, fuzzy
+ msgid "Invalid connect timeout value"
+-msgstr "Nieprawid³owa maska sieciowa w linii"
++msgstr "Nieprawid³owa warto¶æ limitu czasu po³±czenia"
+ 
+ #: src/whois.c:88
+ msgid "Error reading data from"
