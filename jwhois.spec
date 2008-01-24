@@ -86,8 +86,8 @@ rm -rf $RPM_BUILD_ROOT
 %groupadd -g 87 whois
 [ -f %{_localstatedir}/jwhois.db ] && rm -f %{_localstatedir}/jwhois.db
 
-%post
-[ ! -x /usr/sbin/fix-info-dir ] || /usr/sbin/fix-info-dir %{_infodir} >/dev/null 2>&1
+%post	-p	/sbin/postshell
+-/usr/sbin/fix-info-dir -c %{_infodir}
 
 %preun
 if [ "$1" = "0" ]; then
