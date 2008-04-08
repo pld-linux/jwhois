@@ -5,7 +5,7 @@ Version:	4.0
 Release:	1
 License:	GPL v3+
 Group:		Networking/Utilities
-Source0:	ftp://ftp.gnu.org/gnu/jwhois/%{name}-%{version}.tar.gz
+Source0:	http://ftp.gnu.org/gnu/jwhois/%{name}-%{version}.tar.gz
 # Source0-md5:	977d0ba90ee058a7998c94d933fc9546
 Patch0:		%{name}-info.patch
 Patch1:		%{name}-nolibs.patch
