@@ -79,20 +79,17 @@ sed -e 's@^#cachefile.*$@cachefile = "%{_localstatedir}/jwhois.db";@g' \
 
 %find_lang %{name}
 
+touch $RPM_BUILD_ROOT%{_localstatedir}/jwhois.db
+rm -f $RPM_BUILD_ROOT%{_infodir}/dir
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %pre
 %groupadd -g 87 whois
-[ -f %{_localstatedir}/jwhois.db ] && rm -f %{_localstatedir}/jwhois.db
 
 %post	-p	/sbin/postshell
 -/usr/sbin/fix-info-dir -c %{_infodir}
-
-%preun
-if [ "$1" = "0" ]; then
-	[ -f %{_localstatedir}/jwhois.db ] && rm -f %{_localstatedir}/jwhois.db
-fi
 
 %postun
 [ ! -x /usr/sbin/fix-info-dir ] || /usr/sbin/fix-info-dir %{_infodir} >/dev/null 2>&1
@@ -109,3 +106,4 @@ fi
 %lang(sv) %{_mandir}/sv/man1/jwhois.1*
 %{_infodir}/jwhois.info*
 %attr(775,root,whois) %dir %{_localstatedir}
+%ghost %{_localstatedir}/jwhois.db
