@@ -2,7 +2,7 @@ Summary:	The GNU Whois client
 Summary(pl.UTF-8):	Klient Whois z GNU
 Name:		jwhois
 Version:	4.0
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Networking/Utilities
 Source0:	http://ftp.gnu.org/gnu/jwhois/%{name}-%{version}.tar.gz
