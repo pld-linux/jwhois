@@ -106,4 +106,4 @@ fi
 %lang(sv) %{_mandir}/sv/man1/jwhois.1*
 %{_infodir}/jwhois.info*
 %attr(775,root,whois) %dir %{_localstatedir}
-%ghost %attr(664,root,whois) %{_localstatedir}/jwhois.db
+%attr(664,root,whois) %ghost %{_localstatedir}/jwhois.db
