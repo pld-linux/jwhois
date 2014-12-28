@@ -14,7 +14,7 @@ URL:		http://www.gnu.org/software/jwhois/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
 BuildRequires:	gdbm-devel
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	rpmbuild(macros) >= 1.159
 BuildRequires:	texinfo
 Requires(postun):	/usr/sbin/groupdel
